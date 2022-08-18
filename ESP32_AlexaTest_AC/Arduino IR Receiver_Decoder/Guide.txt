@@ -1,0 +1,21 @@
+In the following .ino file was used to decode the IR hexadecimal value coming from the IR control from the AC.
+
+It was used:
+
+* Arduino board
+* Hx1838 sensor (In order to decode the hex value which will be typed in the ESP32 code)
+
+ STEPS:
+	Connect the signal pin to D2 from the Arduino board and load the IR_Receiver_Decoder file.
+
+	Open the serial monitor and set it up with 115200 baud rate.
+
+ *	"Ready to receive IR signals of protocols: NEC, Panasonic/Kaseikyo, Denon/Sharp, Sony, RC5, RC6, LG, JVC, Samsung, Whynter, Lego Power Functions, Bosewave , MagiQuest, Universal Distance, Hash at pin 2" <--Message printed in the serial monitor
+
+	Push the button which will be decoded in order to perform an action (In this case for the Air Conditioner).
+
+ *	"Protocol=LG Address=0x88 Command=0x90 Raw-Data=0x8800909 28 bits MSB first"	<--Message printed in the serial monitor afer pushing a button
+
+	Save the hex value that appears like in this example: "Raw-Data=0x8800909 "
+
+	The hex value for that ON button was: 8800909
