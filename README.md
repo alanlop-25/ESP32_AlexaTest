@@ -7,11 +7,11 @@ It is divided into two sections, the first and second test.
 
 To both tests the files needed are located in each binder according to the test.
 
-# *** First Test: Turning ON and OFF an LED by the Alexa ***
+# First Test: Turning ON and OFF an LED by the Alexa 
 To try the example, first, you need to open the _ESP32_AlexaTest_LED_ binder and load the _.ino_ file into the ESP32 microcontroller. Inside the code there is a link where you will be able to download the library to control the Alexa.
 The code was commented to understand how it was written and how to apply it.
 
-# *** Second Test: Turning ON and OFF an AC by the Alexa ***
+# Second Test: Turning ON and OFF an AC by the Alexa 
 **Part 1**
 
 To try the example, first, you need to open the _ESP32_AlexaTest_AC_ then you will see there are two sub-binders. To control an Air Conditioner is needed to clone the original control by decoding its hexadecimal values and getting the bits quantity coming from the buttons you would like to clone.
