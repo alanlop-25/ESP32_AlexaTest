@@ -1,11 +1,12 @@
 # ESP32_AlexaTest
-In this repository you will be able to control several devices using the ESP32 microcontroller and the Amazon Echo Dot Alexa. Both files were coded by Arduino IDE. 
+In this repository you will be able to control several devices using the ESP32 microcontroller and the Amazon Echo Dot Alexa. 
+Both files were coded by Arduino IDE. 
 
 It is divided into two sections, the first and second test. 
 * The first one involves turning ON and OFF an LED by voice commands with the Alexa.
 * The second test is related to control an AC by the Alexa and the ESP32. For this example is to turn ON and OFF the Air Conditioner.
 
-After uploading the codes in the ESP32 microcontroller, you need to connect your Amazon Echo Dot and the microcontroller to the same Wi-Fi network in order to let your Alexa find the devices you are creating with the codes. Also is important to set up the Alexa into "Search for devices" mode and it should automatically detect the LED or the AC.
+After uploading any of the test codes in the ESP32 microcontroller, you need to connect your Amazon Echo Dot and the microcontroller to the same Wi-Fi network in order to let your Alexa find the devices you are creating with the codes. Also is important to set up the Alexa into "Search for devices" mode and it should automatically detect the LED or the AC.
 
 To both tests the needed files are located in each binder according to the test.
 
@@ -26,6 +27,6 @@ In the _.ino_ file I added the link to download the IR_Remote library.
 
 In the second part, you need to open the _ESP32 AC_Test/ESP32_AlexaTest_AC_ and download it to be able to work on that code using the Arduino IDE. The "PinDefinitionsAndMore.h" is needed to be located in the same binder as the _.ino_ code to successfully upload the code into the ESP32. The pin that will be used to connect the IR diode will be the D4 in the ESP32, as the library establishes.
 
-Finally that is all you need to be able to understand how you can be able to control any digital device by making voice commands to turn ON and OFF devices. With the Alexa library there is a maximum of 10 devices to create in the Alexa app.
+Finally, that is all you need to be able to understand how you can control any digital device by making voice commands to turn ON and OFF devices by Alexa. With the Alexa library for this microcontroller, there is a maximum of 10 devices to create and vinculate in the Alexa app.
 
 
